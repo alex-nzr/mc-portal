@@ -1,0 +1,23 @@
+# other files
+*.log
+*.txt
+*.dt
+~*.*
+
+# PhpStorm & VSCode project files
+/.idea/
+/.vscode/
+
+# Bitrix core
+/bitrix/
+
+# Bitrix download folder
+/upload/
+
+
+*/**/*
+!/local
+!/profile
+/local/logs/
+
+
