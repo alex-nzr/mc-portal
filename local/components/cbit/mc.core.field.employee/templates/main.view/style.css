@@ -1,0 +1,34 @@
+.fields.employee.field-item:hover .crm-widget-employee-change {
+    opacity: 1;
+}
+.cbit-employee.field-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.cbit-employee .fields.employee.field-item{
+    flex:  0 0 48%;
+    margin-bottom: 0;
+}
+
+.main-grid-cell .cbit-employee.field-wrap{
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-grid-cell .cbit-employee .fields.employee.field-item{
+    flex:  0 0 auto;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.main-grid-cell .cbit-employee .fields.employee.field-item .crm-widget-employee-change,
+.main-grid-cell .cbit-employee .fields.employee.field-item .uf-employee-position{
+    display: none;
+}
+
+.main-grid-cell .cbit-employee.employee .field-item .uf-employee-wrap{
+    padding: 3px;
+}

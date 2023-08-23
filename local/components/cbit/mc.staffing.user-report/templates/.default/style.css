@@ -1,0 +1,95 @@
+#user-report-root{
+
+}
+
+#user-report-root *{
+    text-align: left;
+    vertical-align: top;
+}
+
+#user-report-root.internal-staff-report .staffing-only{
+    display: none;
+}
+
+.user-report-block {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 11px 20px;
+    background: #fff;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.user-report-block-diagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user-report-block-diagram-wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    height: 40px;
+}
+
+.user-report-block-diagram-wrapper:before{
+    content: '0';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.user-report-block-diagram-wrapper:after{
+    content: '100%';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.user-report-block-diagram-segment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-report-block-diagram-legend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-report-block-diagram-legend-item{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.user-report-block-diagram-legend-item span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.user-report-block-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-report-block-table th,
+.user-report-block-table td{
+    padding: 3px 5px 8px 3px;
+}
+
+#user-report-block-projects-more{
+    display: block;
+    margin: 10px auto;
+}
+
+#user-report-block-projects-more.ui-btn-wait{
+    pointer-events: none;
+}

@@ -1,0 +1,36 @@
+/***general styles*********************************************************/
+form .ui-ctl{
+    width: 100%;
+}
+form .ui-ctl+.ui-ctl{
+    margin: 5px auto;
+}
+
+.ui-btn-wait{
+    pointer-events: none;
+}
+.popup-window.popup-window-with-titlebar.popup-window-fixed-width{
+    padding-bottom: 15px;
+}
+.popup-window-titlebar-text{
+    width: 100%;
+    text-align: center;
+}
+
+input[readonly]{
+    cursor: default;
+    opacity: .7;
+}
+/**************************************************************************/
+
+/***for all users**********************************************************/
+.crm-entity-stream-section-menu [data-id="email"],
+.crm-entity-stream-section-menu [data-id="task"],
+.crm-entity-stream-section-menu [data-id="wait"],
+.crm-entity-stream-section-menu [data-id="meeting"],
+.crm-entity-stream-section-menu [data-id="call"],
+.crm-entity-stream-section-menu [data-id="activity_rest_applist"],
+.main-buttons-box .main-buttons-item.main-buttons-item-more-default.main-buttons-item-more{
+    display: none!important;
+}
+/**************************************************************************/

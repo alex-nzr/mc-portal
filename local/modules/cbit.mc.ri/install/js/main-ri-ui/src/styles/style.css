@@ -1,0 +1,49 @@
+#uiToolbarStar{
+    display: none;
+}
+
+#menu_custom_section_ri_more_button{
+    display: none!important;
+}
+
+
+#coordinator-current-panel-block{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#coordinator-current-panel-block h3{
+    font-weight: 600;
+    font-size:16px;
+}
+
+#coordinator-current-panel-block a{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#coordinator-current-panel-block img,
+#coordinator-current-panel-block .user-photo-placeholder{
+    display: block;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    object-position: center center;
+    border-radius:50%;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+#coordinator-current-panel-block .coordinator-name,
+#coordinator-current-panel-block .coordinator-email,
+#coordinator-current-panel-block .coordinator-phone{
+    display: block;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #333;
+}
+#coordinator-current-panel-block .coordinator-name{
+    font-weight: 600;
+}

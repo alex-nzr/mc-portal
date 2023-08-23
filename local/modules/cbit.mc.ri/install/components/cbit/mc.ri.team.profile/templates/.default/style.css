@@ -1,0 +1,159 @@
+.workarea-content-paddings{
+    padding: 0!important;
+}
+
+.ui-btn-wait{
+    pointer-events: none;
+}
+
+.ri-team-profile-head{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    border-bottom: 20px solid #eef2f4;
+}
+
+.ri-team-profile-info{
+    margin-left: 50px;
+}
+
+.ri-team-profile-info-work-time-fields{
+    display: flex;
+    align-items: center;
+}
+
+#coordinator-selection-wrapper{
+    --coordinator-block-height: 70px;
+    flex: 0 0 370px;
+}
+
+#coordinator-selection-wrapper.edit #coordinator-selection-current-wrapper{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0s;
+}
+#coordinator-selection-wrapper.edit #coordinator-selection-edit-wrapper{
+    position: relative;
+    pointer-events: auto;
+    opacity: 1;
+    transition: .3s;
+}
+
+.coordinator-selection-title{
+    color: #333;
+}
+
+#coordinator-selection-current-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    pointer-events: auto;
+    transition: .3s;
+}
+
+#coordinator-selection-current-block{}
+
+#coordinator-selection-current-block a{
+    display: flex;
+    align-items: center;
+}
+
+#coordinator-selection-current-block img,
+#coordinator-selection-current-block .user-photo-placeholder{
+    display: block;
+    width: var(--coordinator-block-height);
+    height: var(--coordinator-block-height);
+    object-fit: contain;
+    object-position: center center;
+    border-radius:50%;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+#coordinator-selection-current-block .coordinator-name{
+    display: block;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#coordinator-selection-edit-btn{
+    margin-left: 20px;
+}
+
+#coordinator-selection-edit-wrapper{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: var(--coordinator-block-height);
+    opacity: 0;
+    transition: 0s;
+    pointer-events: none;
+}
+
+#coordinator-selection-submit-btn{
+    margin-left: 20px;
+}
+
+#team-description-edit-wrapper,
+#team-work-time-edit-wrapper,
+.ri-team-profile-info-work-time-fields{
+    max-width: max-content;
+}
+
+#team-description-edit-btn,
+#team-work-time-edit-btn{
+    margin-top: 5px;
+}
+
+#team-description-submit-btn,
+#team-work-time-submit-btn{
+    display: block;
+    margin: 5px auto 0;
+}
+
+#team-description-current-wrapper,
+#team-work-time-current-wrapper{
+    position: relative;
+    opacity: 1;
+    pointer-events: auto;
+    transition: .3s;
+}
+#team-description-edit-wrapper,
+#team-work-time-edit-wrapper{
+    position: absolute;
+    opacity: 0;
+    transition: 0s;
+    pointer-events: none;
+}
+
+#team-description-wrapper.edit #team-description-current-wrapper,
+#team-work-time-wrapper.edit #team-work-time-current-wrapper{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0s;
+}
+#team-description-wrapper.edit #team-description-edit-wrapper,
+#team-work-time-wrapper.edit #team-work-time-edit-wrapper{
+    position: relative;
+    pointer-events: auto;
+    opacity: 1;
+    transition: .3s;
+}
+
+.ri-team-profile-info-work-time-control-wrapper{
+    width: 70px;
+}
+
+.main-grid-cell img.avatar,
+.main-grid-cell i.empty{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    overflow: hidden;
+    background-color: lightgrey;
+}

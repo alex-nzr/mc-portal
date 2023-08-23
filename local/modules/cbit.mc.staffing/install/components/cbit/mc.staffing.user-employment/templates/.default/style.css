@@ -1,0 +1,37 @@
+#user-employment-list-root{
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 11px 20px;
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+#user-employment-list-root table{
+    width:100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#user-employment-list-root th{
+    font-weight: 600;
+    /*white-space: nowrap;*/
+}
+
+#user-employment-list-root td,
+#user-employment-list-root th{
+    padding: 3px 5px 8px 3px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.user-report-block {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 11px 20px;
+    background: #fff;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}

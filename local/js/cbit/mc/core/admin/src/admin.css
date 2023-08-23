@@ -1,0 +1,26 @@
+#bx-admin-prefix .adm-info-message{
+    margin: 10px auto;
+    display: block;
+}
+
+label.module-option-label input[disabled][readonly]{
+    opacity: .5;
+}
+label.module-option-label input[readonly]{
+    opacity: 1;
+}
+
+.role-list-table{
+    max-height: 150px;
+    max-width: max-content;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    overflow: auto;
+}
+.role-list-table td{
+    padding: 3px;
+    border-bottom: 1px solid grey;
+}
+.role-list-table tr:last-child td{
+    border-bottom: none;
+}

@@ -1,0 +1,5 @@
+<?php
+$MESS['CBIT_MC_PROFILE_APPROVE_DETAIL_COMPONENT_NAME'] = "Модерация фото";
+$MESS['CBIT_MC_PROFILE_APPROVE_DETAIL_COMPONENT_DESC'] = "Выводит интерфейс для модерации фото пользователя";
+$MESS['CBIT_MC_PROFILE_APPROVE_DETAIL_COMPONENT_VENDOR_NAME']    = "Первый Бит";
+$MESS['CBIT_MC_PROFILE_APPROVE_DETAIL_COMPONENT_CATEGORY_NAME']  = "Административные компоненты";

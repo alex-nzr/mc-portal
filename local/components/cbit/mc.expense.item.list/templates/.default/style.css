@@ -1,0 +1,23 @@
+.main-grid:not(.main-grid-ondrag) .main-grid-row.main-grid-row-duplicate>td.main-grid-cell{
+    background-color: bisque;
+}
+.main-grid:not(.main-grid-ondrag) .main-grid-row.main-grid-row-duplicate:hover>td.main-grid-cell{
+    background-color: mistyrose;
+}
+
+/*
+.ui-toolbar-after-title-buttons [data-role="bx-crm-toolbar-categories-button"]{
+	display: none!important;
+	opacity: 0;
+	pointer-events: none;
+}
+*/
+
+#uiToolbarContainer.ui-toolbar{
+    display: flex;
+    align-items: center;
+}
+
+.ui-toolbar-right-buttons{
+    order: 1;
+}

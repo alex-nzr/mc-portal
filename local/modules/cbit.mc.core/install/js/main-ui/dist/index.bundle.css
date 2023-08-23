@@ -1,0 +1,33 @@
+#timeman-container{
+    display: none!important;
+}
+
+[data-id="crm_rest_marketplace"]{
+    display: none!important;
+}
+
+.ui-btn.ui-btn-disabled-ex{
+    display: none!important;
+}
+
+/*реклама аналитики внизу детальной карточки*/
+.crm-tracking-entity-details-banner{
+    display: none!important;
+}
+
+/*переключатель режима меню*/
+.menu-items-header .menu-switcher{
+    opacity: 0!important;
+    pointer-events: none;
+}
+
+/*отключить ограничение ширины слайдера*/
+.side-panel.side-panel-container{
+    max-width: none!important;
+    width: calc(100% - 50px) !important;
+}
+
+/*меню поиска в шапке выше вкладок в профиле*/
+body div.title-search-result{
+    z-index: 1000;
+}

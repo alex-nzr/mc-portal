@@ -1,0 +1,121 @@
+/***general styles*********************************************************/
+form .ui-ctl{
+    width: 100%;
+}
+form .ui-ctl+.ui-ctl{
+    margin: 5px auto;
+}
+
+.ui-btn-wait{
+    pointer-events: none;
+}
+.popup-window.popup-window-with-titlebar.popup-window-fixed-width{
+    padding-bottom: 15px;
+}
+.popup-window-titlebar-text{
+    width: 100%;
+    text-align: center;
+}
+
+/**************************************************************************/
+
+/***for all users**********************************************************/
+.ui-entity-editor-block-title .ui-entity-editor-block-title-text{
+    font-size: 16px;
+}
+
+.crm-entity-section.crm-entity-section-tabs>.main-buttons,
+.crm-entity-stream-section-menu [data-id="todo"],
+.crm-entity-stream-section-menu [data-id="email"],
+.crm-entity-stream-section-menu [data-id="task"],
+.crm-entity-stream-section-menu [data-id="wait"],
+.crm-entity-stream-section-menu [data-id="meeting"],
+.crm-entity-stream-section-menu [data-id="call"],
+.crm-entity-stream-section-menu [data-id="activity_rest_applist"],
+.crm-entity-stream-section.crm-entity-stream-section-planned-label,
+.crm-entity-stream-section.crm-entity-stream-section-planned,
+[id$="timeline_todo_container"].crm-entity-stream-content-new-detail,
+.main-buttons-box .main-buttons-item.main-buttons-item-more-default.main-buttons-item-more{
+    display: none!important;
+}
+
+[id$="timeline_comment_container"].crm-entity-stream-content-new-detail{
+    display: block!important;
+}
+/**************************************************************************/
+
+/***block to change/delete/fix comment*************************************/
+.crm-entity-stream-section-context-menu{
+    display: none!important;
+}
+.crm-entity-stream-section-comment{
+    pointer-events: none!important;
+}
+.crm-entity-stream-section-comment .crm-entity-stream-content-detail-employee,
+.crm-entity-stream-section-top-fixed-btn{
+    pointer-events: auto!important;
+    opacity: 1!important;
+}
+/**************************************************************************/
+
+/***custom style for iblock fields*****************************************/
+[data-cid$="_FUNCTION"] .enumeration.field-wrap,
+[data-cid$="_INDUSTRY"] .enumeration.field-wrap{
+    padding-left: 5px;
+    max-height: 150px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    overflow: auto;
+}
+/**************************************************************************/
+
+/***hide add to chat block for item in unassigned stages(1 and 2)**********/
+body.unassigned-stages-interface .crm-entity-stream-section-live-im{
+    display: none!important;
+}
+/**************************************************************************/
+
+/**/
+.internal-staff-interface .cbit-employee .crm-widget-employee-change{
+    display: none!important;
+}
+/**/
+
+/***hide add comment block for user if not requester internal staff users (not RI or admin)******/
+body.internal-staff-interface-not-requester .crm-entity-stream-section.crm-entity-stream-section-new{
+    display: none!important;
+}
+/**************************************************************************/
+
+/***scoring styles*********************************************************/
+.score-selection-wrapper{
+    margin-bottom: 15px;
+}
+
+.score-selection-title{
+    font-weight: 600;
+    text-align: center;
+}
+
+.score-selection-stars{
+    display: flex;
+    justify-content: center;
+}
+
+.score-selection-stars-item{
+    display: block;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    background: lightgrey;
+    cursor: pointer;
+}
+.score-selection-stars-item.active{
+    background: lightgreen;
+}
+
+.not-scored-requests-list-item{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+/**************************************************************************/

@@ -15,9 +15,15 @@
 /upload/
 
 
-*/**/*
-!/local
+/*
+!/local/
 !/profile
+!/.gitignore
+!/.top.menu_ext.php
+!/.top.menu_ext.php.bak
+!/index.php
+!/index_old.php
+
 /local/logs/
 
 
